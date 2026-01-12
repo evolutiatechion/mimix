@@ -95,6 +95,55 @@ opencl: CFLAGS += -DCL_TARGET_OPENCL_VERSION=300
 opencl: $(TARGET)
 
 ```
+- Result preview 
+
+```text
+MIMIX 3.1.2 Header Refactoring Test Suite
+=========================================
+
+Architecture Detection:
+  Pointer Size: 8 bytes
+  Alignment: 32 bytes
+  Cache Line: 64 bytes
+
+Test 1 - ANSI Compliance: PASSED
+Test 2 - 32-byte Alignment: PASSED (offset: 0)
+Test 3 - Integer Limits: PASSED
+Test 4 - POSIX Limits Enhanced: PASSED
+Test 5 - SIMD Vectorized Check: PASSED
+Test 6 - PThreads Concurrent: PASSED
+Test 7 - System Limits Coherence: PASSED
+Test 8 - Architecture Verification: PASSED (pointer size: 8)
+
+Test Summary:
+============
+ANSI_Compliance          : PASS
+Memory_Alignment         : PASS
+Integer_Limits           : PASS
+POSIX_Enhancement        : PASS
+SIMD_Validation          : PASS
+PThreads_Validation      : PASS
+System_Limits            : PASS
+Architecture_Verification: PASS
+
+Total: 8/8 tests passed
+
+Key System Limits:
+  CHAR_BIT: 8
+  INT_MAX: 2147483647
+  LONG_MAX: 9223372036854775807
+  PATH_MAX: 4096
+  OPEN_MAX: 1024
+  PIPE_BUF: 16384
+  SSIZE_MAX: 2147483647
+  SIZE_MAX: 18446744073709551615
+
+Performance Metrics:
+  SIMD Register Width: 256 bits
+  Memory Alignment: 32 bytes
+  Cache Line Size: 64 bytes
+```
+
 ## Architecture
 
 ### Kernel Structure

@@ -1,4 +1,4 @@
-# Mimix 3.1.2 Microkernel Operating System Documentation
+# Mimix 3.1.2 Microkernel Operating System Overview
 
 ## Overview
 Mimix 3.1.2 is a modern microkernel operating system implemented using a hybrid approach combining:

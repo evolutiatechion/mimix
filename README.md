@@ -4,8 +4,7 @@
 Mimix 3.1.2 is a modern microkernel operating system implemented using a hybrid approach combining:
 - **NASM Assembly** for low-level kernel operations
 - NASM version 2.16.03 compiled on Jul 24 2025
-- **GCC with ANSI C89/90** for higher-level system components
-- **Standard C comments** (`/* ... */`) for documentation
+- **GCC with ANSI C89/90** for higher-level system components with Standard C comments** (`/* ... */`) for documentation
 - gcc (GCC) 15.2.1 20251211 (Red Hat 15.2.1-5)
 - Copyright (C) 2025 Free Software Foundation, Inc.
 - This is free software; see the source for copying conditions.  There is NO

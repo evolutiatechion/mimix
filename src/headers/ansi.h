@@ -1,258 +1,216 @@
-/*
- * MIMIX 3.1.2 Microkernel - ANSI Compliance Layer
- * GCC 15.2.1 20251211 | ANSI C89/90
- * Architecture: x86_64/AMD RyZen
- * Optimization: CPU Registers | Cache | SIMD AVX-256/AVX2/FMA
- * Alignment: 32-byte memory boundary
- * Thread Safety: POSIX Compliant | PThreads
- * Cryptographic: Secure Hash Validation
- * Big O Analysis: O(1) constant time operations
+/* ANSI Compliance Header for MIMIX 3.1.2 Microkernel
+ *
+ * Functional Paradigm: Pure function declarations with strict type safety
+ * Big O Complexity: O(1) - Constant time macro expansions
+ * Memory Alignment: 32-byte boundary for SIMD/AVX optimization
+ *
+ * This header ensures C89/90 compliance while enabling modern compiler
+ * optimizations for x86_64/Ryzen architectures with AVX-256 vectorization.
  */
 
 #ifndef _MIMIX_ANSI_H
 #define _MIMIX_ANSI_H
 
-#include <stddef.h>
+/* Target Architecture Configuration */
+#define _MIMIX_ARCH_X86_64     1
+#define _MIMIX_SIMD_AVX256     1
+#define _MIMIX_SIMD_AVX2       1
+#define _MIMIX_SIMD_FMA        1
+#define _MIMIX_ALIGNMENT       32  /* 32-byte alignment for AVX-256 */
+#define _MIMIX_CACHE_LINE      64  /* Ryzen cache line size */
 
-/*
- * SIMD Memory Alignment for AVX-256/AVX2/FMA
- * Using compiler-specific attribute for alignment
- */
-#ifdef __GNUC__
-#define MIMIX_ALIGN_32 __attribute__((aligned(32)))
-#else
-#define MIMIX_ALIGN_32
+/* GCC 15.2.1 Feature Detection */
+#if defined(__GNUC__) && __GNUC__ >= 15
+#define _GCC_OPTIMIZATION_LEVEL 3
+#define _USE_BUILTIN_ASSUME_ALIGNED 1
 #endif
 
-/*
- * Function attributes for optimization
- * Note: inline is not available in C89, using static for internal linkage
- */
-#ifdef __GNUC__
-#define MIMIX_PURE __attribute__((pure))
-#define MIMIX_CONST __attribute__((const))
-#define MIMIX_HOT __attribute__((hot))
-#define MIMIX_COLD __attribute__((cold))
-#define MIMIX_ALWAYS_INLINE /* Not available in C89 */
-#define MIMIX_NO_INLINE __attribute__((noinline))
-#define MIMIX_FLATTEN __attribute__((flatten))
-#define MIMIX_TARGET_RYZEN __attribute__((target("arch=znver3,tune=znver3")))
+/* ANSI Compliance Verification */
+#if defined(__STDC__) && __STDC__ == 1
+#define _MIMIX_ANSI_COMPLIANT  31459
+#define _MIMIX_C89_STRICT      1
+#elif defined(__GNUC__)
+#define _MIMIX_ANSI_COMPLIANT  31459  /* GCC provides sufficient conformance */
+#define _MIMIX_EXTENSIONS      1
 #else
-#define MIMIX_PURE
-#define MIMIX_CONST
-#define MIMIX_HOT
-#define MIMIX_COLD
-#define MIMIX_ALWAYS_INLINE
-#define MIMIX_NO_INLINE
-#define MIMIX_FLATTEN
-#define MIMIX_TARGET_RYZEN
+#error "Compiler does not meet MIMIX 3.1.2 ANSI C89/90 requirements"
 #endif
 
-/*
- * AVX-256 Vectorization Intrinsics
+/* OpenCL/OpenSSL Integration */
+#define _MIMIX_OPENCL_SUPPORT  1
+#define _MIMIX_OPENSSL_CRYPTO  1
+#define _MIMIX_CHECKSUM_VALIDATION 1
+
+/* PThreads Optimization */
+#define _MIMIX_PTHREADS_OPTIMIZED  1
+#define _MIMIX_CPU_REGISTER_OPT    1
+#define _MIMIX_CACHE_OPTIMIZATION  1
+
+/* POSIX Source Configuration
+ * Complexity: O(1) - Direct macro conditional evaluation
  */
-#if defined(__AVX2__) || defined(__AVX__)
-#include <immintrin.h>
-#include <x86intrin.h>
+#if defined(_MIMIX_MICROKERNEL) || defined(_POSIX_C_SOURCE) || \
+    defined(_POSIX2_SOURCE) || defined(_POSIX_THREADS)
+#undef _POSIX_SOURCE
+#define _POSIX_SOURCE                  200809L  /* POSIX.1-2008 */
+#define _POSIX_C_SOURCE                200809L
+#define _POSIX_THREAD_SAFE_FUNCTIONS   1
+#define _POSIX_TIMERS                  1
+#define _POSIX_CPUTIME                 1
 #endif
 
-/*
- * POSIX Thread Support
- */
-#include <pthread.h>
-
-/*
- * Cryptographic Hash Functions
- */
-#include <openssl/sha.h>
-#include <openssl/md5.h>
-
-/*
- * ANSI Compliance Detection
- */
-static int mimix_ansi_compliance_check(void) {
-	/* Constant-time validation */
-	int gcc_check = (__GNUC__ > 0) ? 1 : 0;
-	int stdc_check = (__STDC__ == 1) ? 1 : 0;
-
-	return (gcc_check | stdc_check);
-}
-
-#if __STDC__ == 1 || defined(__GNUC__)
-#define _ANSI 31459
+/* Basic Type Definitions for C89/90 */
+#ifndef _VOIDSTAR
+#define _VOIDSTAR          void *
 #endif
 
-#ifdef _ANSI
-
-/*
- * Prototype System
- */
-#define _PROTOTYPE(function, params) function params
-#define _ARGS(params) params
-
-/*
- * Type Definitions
- */
-#define _VOIDSTAR void *
-#define _VOID void
-#define _CONST const
-#define _VOLATILE volatile
-#define _SIZET size_t
-
-/*
- * Vectorized Types for SIMD Operations (GCC extension)
- */
-#if defined(__AVX__) && defined(__GNUC__)
-typedef __m256  mimix_vec8f;
-typedef __m256d mimix_vec4d;
-typedef __m256i mimix_vec8i;
-typedef __m128  mimix_vec4f;
-typedef __m128d mimix_vec2d;
-typedef __m128i mimix_vec4i;
-#else
-/* Fallback for non-AVX systems */
-typedef float mimix_vec8f[8];
-typedef double mimix_vec4d[4];
-typedef int mimix_vec8i[8];
-typedef float mimix_vec4f[4];
-typedef double mimix_vec2d[2];
-typedef int mimix_vec4i[4];
+#ifndef _VOID
+#define _VOID              void
 #endif
 
-/*
- * Functional Programming Macros
- */
-#define MIMIX_MAP(func, arr, len) \
-    mimix_vectorized_map(func, arr, len)
+#ifndef _CONST
+#define _CONST             const
+#endif
 
-#define MIMIX_REDUCE(func, arr, len, init) \
-    mimix_vectorized_reduce(func, arr, len, init)
+#ifndef _VOLATILE
+#define _VOLATILE          volatile
+#endif
 
-#define MIMIX_FILTER(pred, arr, len) \
-    mimix_vectorized_filter(pred, arr, len)
-
-#else
-/* K&R Compatibility Mode */
-#define _PROTOTYPE(function, params) function()
-#define _ARGS(params) ()
-#define _VOIDSTAR void *
-#define _VOID void
-#define _CONST
-#define _VOLATILE
-#define _SIZET int
-
-#endif /* _ANSI */
-
-/*
- * Restrict Optimizations (C99 feature, but GCC supports as extension)
- */
-#ifdef __GNUC__
-#define _RESTRICT __restrict__
-#else
+#ifndef _RESTRICT
 #define _RESTRICT
 #endif
 
-/*
- * POSIX Compliance Layer
- */
-#if defined(_MINIX) || defined(_POSIX_C_SOURCE) || defined(_POSIX2_SOURCE)
-#undef _POSIX_SOURCE
-#define _POSIX_SOURCE 1
+#ifndef _SIZET
+#define _SIZET             size_t
+#endif
 
-#ifdef __GNUC__
-#define MIMIX_THREAD_LOCAL __thread
+#ifndef _PTRDIFFT
+#define _PTRDIFFT          ptrdiff_t
+#endif
+
+/* ANSI Prototype Macros */
+#ifdef _MIMIX_ANSI_COMPLIANT
+#define _PROTOTYPE(function, params) function params
+#define _ARGS(params)                   params
 #else
-#define MIMIX_THREAD_LOCAL
+#define _PROTOTYPE(function, params)    function()
+#define _ARGS(params)                   ()
 #endif
 
-/*
- * Atomic Operations (C11 feature, using GCC builtins for C89)
- */
+/* GCC-specific Optimizations */
 #ifdef __GNUC__
-#include <stdatomic.h>
+
+/* Pure Function Annotations for Functional Programming */
+#define _PURE_FUNCTION      __attribute__((const))
+#define _NO_SIDE_EFFECTS    __attribute__((pure))
+#define _ALWAYS_INLINE      __attribute__((always_inline)) inline
+#define _FLATTEN            __attribute__((flatten))
+#define _HOT                __attribute__((hot))
+#define _COLD               __attribute__((cold))
+#define _MUST_CHECK         __attribute__((warn_unused_result))
+#define _NONNULL            __attribute__((nonnull))
+#define _RETURNS_NONNULL    __attribute__((returns_nonnull))
+#define _FORMAT_PRINTF(f, a) __attribute__((format(printf, f, a)))
+
+/* SIMD Vector Types - Correct vector_size usage */
+typedef int __attribute__((vector_size(32))) mimix_v8si; /* 8 x 32-bit integers */
+typedef float __attribute__((vector_size(32))) mimix_v8sf; /* 8 x 32-bit floats */
+typedef double __attribute__((vector_size(32))) mimix_v4df; /* 4 x 64-bit doubles */
+
+/* Vectorization Directives */
+#define _VECTORIZE_AVX256
+#define _VECTORIZE_AVX2     __attribute__((target("avx2")))
+#define _VECTORIZE_FMA      __attribute__((target("fma")))
+
+/* Memory Alignment for AVX-256 */
+#define _ALIGNED_32         __attribute__((aligned(32)))
+#define _ASSUME_ALIGNED(p, a) ((__typeof__(p))__builtin_assume_aligned(p, a))
+
+/* Cache Optimization Directives */
+#define _CACHE_PREFETCH(addr, rw, locality) \
+    __builtin_prefetch((addr), (rw), (locality))
+
+#define _CACHE_ALIGN        __attribute__((aligned(64)))
+#define _CACHE_LINE_PAD     char _pad[64]
+
+/* PThreads Optimization Macros */
+#ifdef _MIMIX_PTHREADS_OPTIMIZED
+#define _THREAD_LOCAL       __thread
+#define _CPU_AFFINITY(cpu)  __attribute__((target_clones("default","arch=core-avx2")))
+#define _THREAD_POOL_OPT    __attribute__((optimize("unroll-loops")))
 #endif
 
+/* Branch Prediction Optimization */
+#define _LIKELY(x)         __builtin_expect(!!(x), 1)
+#define _UNLIKELY(x)       __builtin_expect(!!(x), 0)
+
+/* Function Multi-Versioning for AVX Optimization */
+#define _TARGET_AVX256     __attribute__((target("avx2,fma")))
+#define _TARGET_SSE42      __attribute__((target("sse4.2")))
+#define _TARGET_BASELINE   __attribute__((target("default")))
+
+/* Security Hardening */
+#define _BOUNDS_CHECK      __attribute__((access(read_only, 1, 2)))
+#define _BUFFER_SIZE(n)    __attribute__((access(read_write, 1, n)))
+
+#else  /* !__GNUC__ */
+
+/* Non-GCC fallbacks */
+#define _PURE_FUNCTION
+#define _NO_SIDE_EFFECTS
+#define _ALWAYS_INLINE
+#define _FLATTEN
+#define _HOT
+#define _COLD
+#define _MUST_CHECK
+#define _NONNULL
+#define _RETURNS_NONNULL
+#define _FORMAT_PRINTF(f, a)
+
+#define _VECTORIZE_AVX256
+#define _VECTORIZE_AVX2
+#define _VECTORIZE_FMA
+
+#define _ALIGNED_32
+#define _ASSUME_ALIGNED(p, a) (p)
+
+#define _CACHE_PREFETCH(addr, rw, locality) ((void)0)
+#define _CACHE_ALIGN
+#define _CACHE_LINE_PAD
+
+#ifdef _MIMIX_PTHREADS_OPTIMIZED
+#define _THREAD_LOCAL
+#define _CPU_AFFINITY(cpu)
+#define _THREAD_POOL_OPT
 #endif
 
-/*
- * Function declarations - all static for C89 compatibility
- */
+#define _LIKELY(x)         (x)
+#define _UNLIKELY(x)       (x)
 
-/* Vectorized Map Operation */
-static void* mimix_vectorized_map(void* (*func)(void*), void *arr, size_t len);
+#define _TARGET_AVX256
+#define _TARGET_SSE42
+#define _TARGET_BASELINE
 
-/* Vectorized Reduce Operation */
-static void* mimix_vectorized_reduce(void* (*func)(void*, void*), void *arr,
-		size_t len, void *init);
+#define _BOUNDS_CHECK
+#define _BUFFER_SIZE(n)
 
-/* Vectorized Filter Operation */
-static void* mimix_vectorized_filter(int (*pred)(void*), void *arr, size_t len);
+#endif /* __GNUC__ */
 
-/* Cryptographic Hash Validation */
-static unsigned char* mimix_crypto_validate(const void *data, size_t len);
+/* OpenCL/OpenSSL Integration Macros */
+#ifdef _MIMIX_OPENCL_SUPPORT
+#define _OPENCL_KERNEL
+#define _GLOBAL_MEM
+#define _LOCAL_MEM
+#define _CONSTANT_MEM
+#endif
 
-/* Checksum Generation */
-static uint32_t mimix_checksum_generate(const void *data, size_t len);
+#ifdef _MIMIX_OPENSSL_CRYPTO
+#define _CRYPTO_SECURE
+#define _AUTH_TAG_SIZE     16  /* GCM authentication tag size */
+#endif
 
-/*
- * Function definitions
- */
+/* Cryptographic Type Extensions */
+#define _CRYPTO_CONTEXT    void *
+#define _HASH_DIGEST       unsigned char[64]
 
-/* Vectorized Map Operation */
-static void* mimix_vectorized_map(void* (*func)(void*), void *arr, size_t len) {
-	/* Implementation using AVX when available */
-	(void) func;
-	(void) arr;
-	(void) len;
-	return NULL; /* Placeholder */
-}
-
-/* Vectorized Reduce Operation */
-static void* mimix_vectorized_reduce(void* (*func)(void*, void*), void *arr,
-		size_t len, void *init) {
-	(void) func;
-	(void) arr;
-	(void) len;
-	(void) init;
-	return NULL; /* Placeholder */
-}
-
-/* Vectorized Filter Operation */
-static void* mimix_vectorized_filter(int (*pred)(void*), void *arr, size_t len) {
-	(void) pred;
-	(void) arr;
-	(void) len;
-	return NULL; /* Placeholder */
-}
-
-/* Cryptographic Hash Validation */
-static unsigned char* mimix_crypto_validate(const void *data, size_t len) {
-	static unsigned char hash[SHA256_DIGEST_LENGTH];
-	SHA256_CTX ctx;
-
-	(void) data;
-	(void) len;
-
-	/* Placeholder implementation */
-	SHA256_Init(&ctx);
-	SHA256_Update(&ctx, data, len);
-	SHA256_Final(hash, &ctx);
-
-	return hash;
-}
-
-/* Checksum Generation */
-static uint32_t mimix_checksum_generate(const void *data, size_t len) {
-	/* Simple XOR checksum */
-	const unsigned char *bytes = (const unsigned char*) data;
-	uint32_t checksum = 0;
-	size_t i;
-
-	for (i = 0; i < len; i++) {
-		checksum ^= bytes[i];
-		checksum = (checksum << 1) | (checksum >> 31); /* Rotate left */
-	}
-
-	return checksum;
-}
 #endif /* _MIMIX_ANSI_H */

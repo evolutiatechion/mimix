@@ -1,4 +1,4 @@
-# Artificial Intelligence Microkernel Operating System Overview (Mimix 3.1.2)
+# Artificial Intelligence Microkernel Operating System Overview
 
 ![Image](https://github.com/user-attachments/assets/ec1f582b-6c52-4500-9e6a-7b986867dd60)
 

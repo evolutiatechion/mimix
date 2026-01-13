@@ -6,10 +6,6 @@
 
 ---
 
-## MIMIX Green BootStrapping 3.1.2
-
----
-
 <img width="485" height="601" alt="Image" src="https://github.com/user-attachments/assets/d9f0ccde-0178-4a93-a4f7-f0c439c23d30" />
 
 ---

@@ -2,7 +2,7 @@
 
 ---
 
-## MIMIX BootStrap 3.1.2
+## MIMIX Green BootStrapping 3.1.2
 
 ---
 

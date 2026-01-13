@@ -5,7 +5,7 @@
 ---
 
 ## Overview
-Mimix 3.1.2 is a modern microkernel operating system implemented using a hybrid approach combining:
+Mimix 3.1.2 is a modern artificial intelligence microkernel operating system implemented using a hybrid approach combining:
 - **NASM Assembly** for low-level kernel operations
 - NASM version 2.16.03 compiled on Jul 24 2025
 - **GCC with ANSI C89/90** for higher-level system components with Standard C comments `/* ... */` for documentation

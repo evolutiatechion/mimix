@@ -1,4 +1,4 @@
-### "The Nathanael Banach is Interactive Military AI within Realistic Human Face Morphogenesis"
+### "The Nathanael Banach is Interactive Military AI within Realistic Human Face"
 
 ---
 

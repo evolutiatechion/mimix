@@ -2,6 +2,12 @@
 
 ---
 
+"The Nathanael Banach is Interactive AI for Realistic Human Face Morphogenesis"
+
+![Image](https://github.com/user-attachments/assets/ec1f582b-6c52-4500-9e6a-7b986867dd60)
+
+---
+
 ## MIMIX Green BootStrapping 3.1.2
 
 ---
@@ -27,12 +33,6 @@ https://github.com/user-attachments/assets/00ff4638-ba96-4e63-80b7-b1d6b8767794
 ---
 
 https://github.com/user-attachments/assets/5a9e83b7-bba7-483d-b768-de7207570bc0
-
----
-
-"The Nathanael Banach is Interactive AI for Realistic Human Face Morphogenesis"
-
-![Image](https://github.com/user-attachments/assets/ec1f582b-6c52-4500-9e6a-7b986867dd60)
 
 ---
 

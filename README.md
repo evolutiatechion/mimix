@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/5a9e83b7-bba7-483d-b768-de7207570bc0
 
 ---
 
-## BootStrapping MIMIX 3.1.2
+## Bootstrapping MIMIX 3.1.2
 
 This completes the MIMIX OS Microkernel implementation with:
 

@@ -1,4 +1,4 @@
-### "The Nathanael Banach is AI interactive within Realistic Human Face"
+### "The Nathanael Banach is Interactive AI within Realistic Human Face"
 
 ---
 

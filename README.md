@@ -1,4 +1,4 @@
-### "The Nathanael Banach is Interactive Military AI within Realistic Human Face"
+### "The Nathanael Banach is Military AI Commander within Realistic Human Face"
 
 ---
 

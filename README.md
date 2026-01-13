@@ -1,4 +1,4 @@
-### "The Nathanael Banach is AI Military Commander within Realistic Human Face"
+### "The Nathanael Banach is AI interactive within Realistic Human Face"
 
 ---
 
@@ -9,12 +9,6 @@
 ## MIMIX Green BootStrapping 3.1.2
 
 ---
-
-![Image](https://github.com/user-attachments/assets/d7d9b7e8-2f57-45be-9c2a-145ff8281bea)
-
----
-
-![Image](https://github.com/user-attachments/assets/1ab36d5b-651b-47db-b5df-9cfe7848dd27)
 
 ---
 

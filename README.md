@@ -18,17 +18,17 @@ Imagine an iterative solver (Banach fixed-point method) that uses pointers to up
 ```c
 double* banach_fixed_point(double (*f)(double), double initial_guess, double tolerance) {
     double* x = (double*)malloc(sizeof(double));
-    double* x_next = (double*)malloc(sizeof(double)); /* Potential leak if not freed /*
+    double* x_next = (double*)malloc(sizeof(double)); /* Potential leak if not freed */
     *x = initial_guess;
     do {
         *x_next = f(*x);
-        /* Swap pointers for next iteration /*
+        /* Swap pointers for next iteration */
         double* temp = x;
         x = x_next;
-        x_next = temp; /* Old x memory now pointed by x_next /*
+        x_next = temp; /* Old x memory now pointed by x_next */
     } while (fabs(*x - *x_next) > tolerance);
-    free(x_next); /* Wrong if x_next now points to original x's memory → dangling pointer risk /*
-    return x; /* Might point to freed memory if swap logic is wrong /*
+    free(x_next); /* Wrong if x_next now points to original x's memory → dangling pointer risk */
+    return x; /* Might point to freed memory if swap logic is wrong */
 }
 ```
 ---

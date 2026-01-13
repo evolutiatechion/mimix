@@ -2,6 +2,10 @@
 
 ---
 
+![Image](https://github.com/user-attachments/assets/1ab36d5b-651b-47db-b5df-9cfe7848dd27)
+
+---
+
 "The Nathanael Banach is Interactive AI for Realistic Mapping Human Face Morphogenesis"
 
 ---

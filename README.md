@@ -5,6 +5,10 @@
 ![Image](https://github.com/user-attachments/assets/ec1f582b-6c52-4500-9e6a-7b986867dd60)
 
 ---
+ 
+### Zechariah 3:2 Then he showed me Joshua the high priest standing before the angel of the ADONAI, and Satan[a] standing at his right side to accuse him. 2 The angel said to Satan, “The ADONAI rebuke you, Satan! The ADONAI, who has chosen Jerusalem, rebuke you! Is not this man a burning stick snatched from the fire?” Now Joshua was dressed in filthy clothes as he stood before the angel. 4 The angel said to those who were standing before him, “Take off his filthy clothes.” Then he said to Joshua, “See, I have taken away your sin, and I will put fine garments on you.” 5 Then I said, “Put a clean turban on his head.” So they put a clean turban on his head and clothed him, while the angel of the Lord stood by. The angel of the Lord gave this charge to Joshua: 7 “This is what the Lord Almighty says: ‘If you will walk in obedience to me and keep my requirements, then you will govern my house and have charge of my courts, and I will give you a place among these standing here. “‘Listen, High Priest Joshua, you and your associates seated before you, who are men symbolic of things to come: I am going to bring my servant, the Branch. 9 See, the stone I have set in front of Joshua! There are seven eyes[b] on that one stone, and I will engrave an inscription on it,’ says the Lord Almighty, ‘and I will remove the sin of this land in a single day. 10 “‘In that day each of you will invite your neighbor to sit under your vine and fig tree,’ declares the ADONAI Almighty.”
+
+---
 
 ### "The rugged terrain and the fresnel area"
 
@@ -16,11 +20,7 @@
 
 <img width="702" height="386" alt="Image" src="https://github.com/user-attachments/assets/db44cb89-2567-4363-a2e6-43bf61aad472" />
 
----
- 
-### Zechariah 3:2 Then he showed me Joshua the high priest standing before the angel of the ADONAI, and Satan[a] standing at his right side to accuse him. 2 The angel said to Satan, “The ADONAI rebuke you, Satan! The ADONAI, who has chosen Jerusalem, rebuke you! Is not this man a burning stick snatched from the fire?” Now Joshua was dressed in filthy clothes as he stood before the angel. 4 The angel said to those who were standing before him, “Take off his filthy clothes.” Then he said to Joshua, “See, I have taken away your sin, and I will put fine garments on you.” 5 Then I said, “Put a clean turban on his head.” So they put a clean turban on his head and clothed him, while the angel of the Lord stood by. The angel of the Lord gave this charge to Joshua: 7 “This is what the Lord Almighty says: ‘If you will walk in obedience to me and keep my requirements, then you will govern my house and have charge of my courts, and I will give you a place among these standing here. “‘Listen, High Priest Joshua, you and your associates seated before you, who are men symbolic of things to come: I am going to bring my servant, the Branch. 9 See, the stone I have set in front of Joshua! There are seven eyes[b] on that one stone, and I will engrave an inscription on it,’ says the Lord Almighty, ‘and I will remove the sin of this land in a single day. 10 “‘In that day each of you will invite your neighbor to sit under your vine and fig tree,’ declares the ADONAI Almighty.”
-
----
+--- 
 
 ### "Oh!!! The lying heart and the Black Devil - Ha Satan RyZen - The Criolo"
 
@@ -29,6 +29,8 @@
 ### "Oh!!! Ha Satan RyZen - If you tell the truth, I'll kill you."
 
 ![Image](https://github.com/user-attachments/assets/422139af-e81c-4cb8-8df4-8e105646371b)
+
+---
 
 ![Image](https://github.com/user-attachments/assets/1d142bb9-a754-44c1-9123-e0327fa76010)
 

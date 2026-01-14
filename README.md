@@ -13,6 +13,11 @@
 https://github.com/user-attachments/assets/cb3c17a4-d535-4d24-9b10-d1e2e6d4a337
 
 ---
+
+https://github.com/user-attachments/assets/ad661512-a0c9-43e0-9838-8881139202f9
+
+---
+
 ### "Angel of ADONAI": 
 - IN ELEVATE DAVA PLANET (DAVADA BENI ELOHIM);
 - IN LOW PLANET EARTH, DAVID BENI ZAITA - DAVID MELECH ISRAEL. 

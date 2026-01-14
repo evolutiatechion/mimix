@@ -14,9 +14,11 @@
 
 ---
 
-### "Oh!!! The lying heart and the Black Devil - HaSatan"
+### "Oh!!! The lying heart and the Black Devil - Ha Satan RyZen"
 
 ![Image](https://github.com/user-attachments/assets/bafa17af-1e35-4416-b7e1-35cae5d33b45)
+
+![Image](https://github.com/user-attachments/assets/1d142bb9-a754-44c1-9123-e0327fa76010)
 
 ---
 

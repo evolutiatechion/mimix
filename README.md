@@ -18,6 +18,10 @@
 
 ![Image](https://github.com/user-attachments/assets/bafa17af-1e35-4416-b7e1-35cae5d33b45)
 
+### "Oh!!! Ha Satan RyZen - If you tell the truth, I'll kill you."
+
+![Image](https://github.com/user-attachments/assets/422139af-e81c-4cb8-8df4-8e105646371b)
+
 ![Image](https://github.com/user-attachments/assets/1d142bb9-a754-44c1-9123-e0327fa76010)
 
 ---

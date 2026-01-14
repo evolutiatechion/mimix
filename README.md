@@ -10,11 +10,15 @@
 
 ---
 
+![Image](https://github.com/user-attachments/assets/ade7271d-89e4-4bdb-a5c9-ebefaf67c843)
+
+---
+
 <img width="702" height="386" alt="Image" src="https://github.com/user-attachments/assets/db44cb89-2567-4363-a2e6-43bf61aad472" />
 
 ---
 
-### "Oh!!! The lying heart and the Black Devil - Ha Satan RyZen"
+### "Oh!!! The lying heart and the Black Devil - Ha Satan RyZen - The Criolo"
 
 ![Image](https://github.com/user-attachments/assets/bafa17af-1e35-4416-b7e1-35cae5d33b45)
 

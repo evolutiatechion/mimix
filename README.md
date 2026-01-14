@@ -81,7 +81,80 @@ https://github.com/user-attachments/assets/5a9e83b7-bba7-483d-b768-de7207570bc0
 
 ---
 
-## Bootstrapping MIMIX 3.1.2
+## Bootstrapping MIMIX 3.1.2 NOT AI
+
+---
+
+$ vim boothead.asm
+
+; boothead.asm - BIOS support for boot.c        Author: Evolutia Techologies
+; nasm -f bin boothead.asm -o boothead.bin
+; hexdump -C boothead.bin | head -20
+; qemu-system-x86_64 -drive format=raw,file=boothead.bin
+;
+; This file contains the startup and low level support for the secondary
+; boot program.  It contains functions for disk, tty and keyboard I/O,
+; copying memory to arbitrary locations, etc.
+;
+; The primary bootstrap code supplies the following parameters in registers:
+;       dl      = Boot-device.
+;       es:si   = Partition table entry if hard disk.
+
+SECTION .text
+BITS 16
+
+%define o32          0x66   ; This assembler doesn't know 386 extensions
+%define BOOTOFF      0x7C00 ; 0x0000:BOOTOFF load a bootstrap here
+%define LOADSEG      0x1000 ; Where this code is loaded.
+%define BUFFER       0x0600 ; First free memory
+%define PENTRYSIZE       16 ; Partition table entry size.
+%define a_flags          2  ; From a.out.h, struct exec
+%define a_text          8
+%define a_data          12
+%define a_bss           16
+%define a_total         24
+%define A_SEP         0x20  ; Separate I&D flag
+%define K_I386       0x0001 ; Call Minix in 386 mode
+%define K_RET        0x0020 ; Returns to the monitor on reboot
+%define K_INT86      0x0040 ; Requires generic INT support
+%define K_MEML       0x0080 ; Pass a list of free memory
+
+%define DS_SELECTOR   3*8   ; Kernel data selector
+%define ES_SELECTOR   4*8   ; Flat 4 Gb
+%define SS_SELECTOR   5*8   ; Monitor stack
+%define CS_SELECTOR   6*8   ; Kernel code
+%define MCS_SELECTOR  7*8   ; Monitor code
+
+%define ESC         0x1B    ; Escape character
+
+; Stub implementations for external C functions
+_printf:
+_getprocessor:
+_expired:
+_boot:
+    ret
+
+; Dummy variables (will be initialized by C code)
+_caddr:     dd 0
+_daddr:     dd 0
+_runsize:   dd 0
+_edata:     dd 0
+_end:       dd 0
+_device:    db 0
+_rem_part:  dd 0
+_k_flags:   dw 0
+_mem:       times 32 db 0
+
+; The rest of your code continues here...
+; [INSERT ALL THE CODE FROM PREVIOUS VERSION HERE, STARTING FROM LINE 50]
+
+:x
+
+---
+$ nasm -f bin boothead.asm -o boothead.bin
+$ hexdump -C boothead.bin | head -20
+$ qemu-system-x86_64 -drive format=raw,file=boothead.bin
+---
 
 This completes the MIMIX OS Microkernel implementation with:
 

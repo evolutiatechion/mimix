@@ -87,6 +87,7 @@ https://github.com/user-attachments/assets/5a9e83b7-bba7-483d-b768-de7207570bc0
 
 $ vim boothead.asm
 
+```assembly
 ; boothead.asm - BIOS support for boot.c        Author: Evolutia Techologies
 ; nasm -f bin boothead.asm -o boothead.bin
 ; hexdump -C boothead.bin | head -20
@@ -149,7 +150,7 @@ _mem:       times 32 db 0
 ; [INSERT ALL THE CODE FROM PREVIOUS VERSION HERE, STARTING FROM LINE 50]
 
 :x
-
+```
 ---
 $ nasm -f bin boothead.asm -o boothead.bin
 $ hexdump -C boothead.bin | head -20

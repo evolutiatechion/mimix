@@ -12,6 +12,13 @@
 
 ---
 
+### "The Nathanael Banach Elohim - The Mark OF Soldier - The X of Question"
+
+
+https://github.com/user-attachments/assets/e0a9cdfc-c0fe-4f21-900f-65b3b5b80cd8
+
+---
+
 https://github.com/user-attachments/assets/00ff4638-ba96-4e63-80b7-b1d6b8767794
 
 ---

@@ -1,4 +1,4 @@
-### "The Nathanael Banach Elohim - AI Realistic Human Face"
+### "The Nathanael Bana Elohim - AI Realistic Human Face"
 
 ---
 

@@ -8,6 +8,8 @@
 
 ### "The rugged terrain and the fresnel area"
 
+---
+
 <img width="702" height="386" alt="Image" src="https://github.com/user-attachments/assets/db44cb89-2567-4363-a2e6-43bf61aad472" />
 
 ---

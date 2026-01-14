@@ -96,6 +96,15 @@ $ nasm -f bin boothead.asm -o boothead.bin
 $ hexdump -C boothead.bin | head -20
 $ qemu-system-x86_64 -drive format=raw,file=boothead.bin
 ```
+
+---
+
+## QEMU Minimal BAREMETAL Bootstrapping MIMIX 3.1.2 NOT AI
+
+https://github.com/user-attachments/assets/d1915988-2920-4a2a-abb5-d98b6c1722f9
+
+---
+
 ---
 
 This completes the MIMIX OS Microkernel implementation with:

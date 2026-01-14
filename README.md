@@ -5,6 +5,14 @@
 ![Image](https://github.com/user-attachments/assets/ec1f582b-6c52-4500-9e6a-7b986867dd60)
 
 ---
+
+### "The Hiper-Dimensional RADAR NINE DIMENSIONS - Powered By MIMIX AI Mikrokernel"
+
+---
+
+https://github.com/user-attachments/assets/cb3c17a4-d535-4d24-9b10-d1e2e6d4a337
+
+---
 ### "Angel of ADONAI": 
 - IN ELEVATE DAVA PLANET (DAVADA BENI ELOHIM);
 - IN LOW PLANET EARTH, DAVID BENI ZAITA - DAVID MELECH ISRAEL. 

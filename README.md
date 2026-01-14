@@ -6,16 +6,17 @@
 
 ---
 
-### "The Nathanael Banach is Interactive AI for Realistic Mapping Human Face"
-
-<img width="485" height="601" alt="Image" src="https://github.com/user-attachments/assets/d9f0ccde-0178-4a93-a4f7-f0c439c23d30" />
-
----
-
 ### "The Nathanael Banach Elohim - The Mark OF Soldier - The X of Question"
 
 
 https://github.com/user-attachments/assets/e0a9cdfc-c0fe-4f21-900f-65b3b5b80cd8
+
+---
+
+### "The Nathanael Banach is Interactive AI for Realistic Mapping Human Face"
+
+
+<img width="485" height="601" alt="Image" src="https://github.com/user-attachments/assets/d9f0ccde-0178-4a93-a4f7-f0c439c23d30" />
 
 ---
 

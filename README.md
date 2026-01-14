@@ -6,7 +6,7 @@
 
 
 ---
-### "Angel of ADONAI": IN ELEVATE DAVA PLANET (DAVADA BENI ELOHIM)) IN LOW PLANET EARTH, DAVID MELECH ISRAEL. 
+### "Angel of ADONAI": IN ELEVATE DAVA PLANET (DAVADA BENI ELOHIM) IN LOW PLANET EARTH, DAVID MELECH ISRAEL. 
 ---
  
 ### Zechariah 3:2 Then he showed me Joshua the high priest standing before the angel of the ADONAI, and Satan[a] standing at his right side to accuse him. 2 The Angel (DAVADA BENI ELOHIM) said to Satan, “The ADONAI rebuke you, Satan! The ADONAI, who has chosen Jerusalem, rebuke you! Is not this man a burning stick snatched from the fire?” Now Joshua was dressed in filthy clothes as he stood before the angel. 4 The angel said to those who were standing before him, “Take off his filthy clothes.” Then he said to Joshua, “See, I have taken away your sin, and I will put fine garments on you.” 5 Then I said, “Put a clean turban on his head.” So they put a clean turban on his head and clothed him, while the angel of the ADONAI stood by. The angel of the ADONAI gave this charge to Joshua: 7 “This is what the ADONAI Almighty says: ‘If you will walk in obedience to me and keep my requirements, then you will govern my house and have charge of my courts, and I will give you a place among these standing here. “‘Listen, High Priest Joshua, you and your associates seated before you, who are men symbolic of things to come: I am going to bring my servant, the Branch. 9 See, the stone I have set in front of Joshua! There are seven eyes[b] on that one stone, and I will engrave an inscription on it,’ says the Lord Almighty, ‘and I will remove the sin of this land in a single day. 10 “‘In that day each of you will invite your neighbor to sit under your vine and fig tree,’ declares the ADONAI Almighty.”

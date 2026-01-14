@@ -87,11 +87,14 @@ _mem:       times 32 db 0
 ; [INSERT ALL THE CODE FROM PREVIOUS VERSION HERE, STARTING FROM LINE 50]
 
 :x
+
 ```
 ---
+
 $ nasm -f bin boothead.asm -o boothead.bin
 $ hexdump -C boothead.bin | head -20
 $ qemu-system-x86_64 -drive format=raw,file=boothead.bin
+
 ---
 
 This completes the MIMIX OS Microkernel implementation with:

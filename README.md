@@ -13,6 +13,12 @@ https://github.com/user-attachments/assets/e0a9cdfc-c0fe-4f21-900f-65b3b5b80cd8
 
 ---
 
+### "The Nathanael Banach Elohim - The True Colors of Soldier - The X of Question"
+
+https://github.com/user-attachments/assets/fac7ee13-175f-4d2a-8bb6-4dd25487bc2f
+
+---
+
 ### "The Nathanael Banach is Interactive AI for Realistic Mapping Human Face"
 
 

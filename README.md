@@ -14,6 +14,12 @@
 
 ---
 
+### "Oh!!! The lying heart and the Black Devil - HaSatan"
+
+![Image](https://github.com/user-attachments/assets/bafa17af-1e35-4416-b7e1-35cae5d33b45)
+
+---
+
 ### "The Nathanael Banach Elohim - The Mark OF Soldier - The X of Question"
 
 

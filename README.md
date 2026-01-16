@@ -6,7 +6,7 @@
 
 ---
 
-### "The NINE DIMENSIONS - The Nathaniel's Caravels - Powered By MIMIX AI Mikrokernel"
+### "The NINE DIMENSIONS - The Nathaniel's Caravels - Powered By Sousa Clarification"
 
 ---
 

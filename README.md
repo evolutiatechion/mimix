@@ -6,6 +6,14 @@
 
 ---
 
+### "The NINE DIMENSIONS - The Nathaniel's Caravels - Powered By MIMIX AI Mikrokernel"
+
+---
+
+https://github.com/user-attachments/assets/a35c55c8-f417-4518-b73e-a7179d98ee44
+
+---
+
 ### "The Hiper-Dimensional RADAR NINE DIMENSIONS - Powered By MIMIX AI Mikrokernel"
 
 ---

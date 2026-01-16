@@ -1,4 +1,4 @@
-### "The Nathanael Bana Elohim - AI Realistic Human Face"
+### "纳塔内尔·巴纳·埃洛希姆 - 人工智能逼真人脸"
 
 ---
 
@@ -6,7 +6,7 @@
 
 ---
 
-### "The Collision Detection Animation - Powered By MIMIX AI Mikrokernel"
+### "AI层次声音仿真系统实现"
 
 ---
 

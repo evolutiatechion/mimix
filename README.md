@@ -6,7 +6,7 @@
 
 ---
 
-### "The NINE DIMENSIONS - The Collision Detection Animation - Powered By MIMIX AI Mikrokernel"
+### "9D - The Collision Detection Animation - Powered By MIMIX AI Mikrokernel"
 
 ---
 

@@ -6,7 +6,7 @@
 
 ---
 
-### "9D - The Collision Detection Animation - Powered By MIMIX AI Mikrokernel"
+### "The Collision Detection Animation - Powered By MIMIX AI Mikrokernel"
 
 ---
 

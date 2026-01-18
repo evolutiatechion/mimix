@@ -14,6 +14,10 @@ https://github.com/user-attachments/assets/e686e1d5-8714-49f4-ae2d-1227d997b571
 
 ---
 
+https://github.com/user-attachments/assets/b6f6648c-32ae-4d44-96ef-c9652580594a
+
+---
+
 ### "AI层次声音仿真系统实现"
 
 ---

@@ -14,6 +14,12 @@ https://github.com/user-attachments/assets/e686e1d5-8714-49f4-ae2d-1227d997b571
 
 ---
 
+### "4D MIMIX HYPERCUBE SPACE"
+
+<img width="1366" height="741" alt="Image" src="https://github.com/user-attachments/assets/bc5fff12-2f9d-46a8-ab59-9c5f0c5cd7b6" />
+
+---
+
 https://github.com/user-attachments/assets/b6f6648c-32ae-4d44-96ef-c9652580594a
 
 ---

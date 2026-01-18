@@ -6,6 +6,14 @@
 
 ---
 
+### "利用熵进行神经模糊决策"
+
+---
+
+https://github.com/user-attachments/assets/e686e1d5-8714-49f4-ae2d-1227d997b571
+
+---
+
 ### "AI层次声音仿真系统实现"
 
 ---
